@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="weather">
+        <h1>
+          <strong id="current-date"> </strong>
+        </h1>
+        <h3 id="current-time"></h3>
+        <br />
+        <form id="search-form">
+           <div class="row">
+             <div class="col-1">
+              <input class="btn btn-danger" type="button" value="🔍" />
+        </form>
+         </div>
+          <div class="col">
+            <input
+              id="city-input"
+              type="location"
+              placeholder="Your Location"
+              class="form-control"
+              autofocus
+            />
+          </div>
+        </div>
+        <br />
+        <h4 id="city"></h4>
+        <div class="row">
+          <div class="col-7">
+            <div class="big-icon">
+              <i class="fas fa-sun"></i>
+            </div>
+            <div class="col-4">
+                <ul>
+                  <li><span id="description"></span></li>
+                </ul>
+              </div>
+          </div>
+           <div class="col-5" class="temperature">
+             <ul>
+               <li><span id="temperature"></span>°C</li>
+              </ul>
+           </div>
+          <div class="col-4">
+            <ul>
+              <li>
+                Humidity: <span id="humidity"></span>%</li>
+              <li>
+                Wind: <span id="wind"></span> km/h</li>
+            </ul>
+          </div>
+        <div class="card-deck">
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">2.10.</h5>
+              <div class="icons">
+                <i class="fas fa-cloud"></i>
+                <p class="card-text">20°C</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">3.10.</h5>
+              <div class="icons">
+                <i class="fas fa-sun"></i>
+                <p class="card-text">21°C</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">4.10.</h5>
+              <div class="icons">
+                <i class="fas fa-sun"></i>
+                <p class="card-text">22°C</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">5.10.</h5>
+              <div class="icons">
+                <i class="fas fa-cloud-sun"></i>
+                <p class="card-text">18°C</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <div class="card-body">
+              <h5 class="card-title">6.10.</h5>
+              <div class="icons">
+                <i class="fas fa-cloud-showers-heavy"></i>
+                <p class="card-text">16°C</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+h1,
+h2,
+h3,
+h4,
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  color: rgba(31, 49, 211, 0.836);
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px 0px 15px 0px;
+}
+
+.time {
+  color: #42a5f5;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+}
+
+.big-icon {
+  color: #ffa726;
+  font-size: 140px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.temperature {
+  padding: 30px 0px 0px 0px;
+  color: #1ab2a8;
+  font-size: 60px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px 0px 10px 0px;
+  color: #88c98c;
+  font-size: 18px;
+}
+
+p {
+  padding: 5px 0 0 0;
+  color: #1ab2a8;
+  font-size: 20px;
+}
+
+h5 {
+  color: rgba(6, 21, 161, 0.959);
+  font-size: 25px;
+}
+
+.card-body {
+  padding: 5px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.card-deck {
+  margin: 0 auto;
+  text-align: center;
+  border: none;
+}
+
+.icons {
+  color: #c7c7c7;
+  font-size: 60px;
+}
+
+.weather {
+  width: 680px;
+  border: 3px solid #ff3366;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
